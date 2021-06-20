@@ -315,7 +315,7 @@ ol{
 .navEnd{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between
 }
 
 .boton2{
@@ -323,7 +323,6 @@ ol{
     border: 1px;
     border-color: black;
     margin-top: -50px;
-    margin-right: 30px;
 }
 
 .logo{
