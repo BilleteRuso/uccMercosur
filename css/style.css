@@ -1,0 +1,315 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.fondo{
+    height: 100vh;
+    width: 100vw;
+}
+
+.trampa{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+.caratula{
+    width: 70vw;
+    height: 70vh;
+    background-color: #ffffff;
+    margin: 10vh 10vw;
+    border: 1px;
+    border-color: #a5a5a5;
+    border-style: solid;
+    padding: 5vh 5vw;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.container{
+    width: 100vw;
+    position: absolute;
+    background-color: #ffff;
+    display: flex;
+}
+
+.menuLeft{
+    width: 500px;
+    border: 1px;
+    border-color: rgb(216, 216, 216);
+    border-style: solid;
+    border-top: none;
+}
+
+.subMenu{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-color: rgb(216, 216, 216);
+    border-style: solid;
+    height: 100px;
+    display: flex;
+}
+
+.boton{
+    background-color: transparent;
+}
+
+a{
+    text-decoration: none;
+}
+
+h4{
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.boton h4{
+    margin: 46px;
+    margin-top: 43px;
+}
+
+.marginTop{
+    height: 120px;
+}
+
+.sticky{
+    position: fixed;
+    width: 23vw;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+}
+
+.blockMenu{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    border-color: rgb(216, 216, 216);
+    border-style: solid;
+    padding: 10px 10px 10px 40px;
+}
+
+.blockMenuEstoy{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 4px;
+    border-color: black;
+    background-color: #a5a5a526;
+    border-style: solid;
+    padding: 10px 10px 10px 40px;
+}
+
+.tituloSeccion{
+    color: rgb(255, 59, 0);
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 150ms ease-out 0s;
+    margin: 20px 20px 20px 0px;
+}
+
+.introduccionSeccion{
+    color: rgb(34, 34, 34);
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+    margin: 0px 20px 20px 0px;
+}
+
+
+/* SECCIÓN PRINCIPAL */
+
+.main{
+    margin-left: 7vw;
+    margin-right: 7vw;
+    width: 77vw;
+}
+.seccionMarca{
+    height: 232px;
+    position: relative;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20em;
+    font-weight: 900;
+    text-decoration: none;
+    letter-spacing: -35px;
+    transform: translate(-22px, -165px);
+    line-height: 0px;
+    position: absolute;
+}
+
+h2{
+    display: inline;
+    color: rgb(0, 0, 0);
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    line-height: 50px; 
+    font-size: 70px;
+}
+
+h3{
+    display: inline;
+    color: rgb(178, 178, 178);
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 40px; 
+    font-size: 50px;
+}
+
+.autor{
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 150ms ease-out 0s;
+    margin-top: 60px;
+}
+
+.autorA{
+    color: rgb(122, 122, 122);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 150ms ease-out 0s;
+}
+.hr1{
+    margin-top: 25px;
+    height: 6px;
+    background-color: black;
+}
+
+img{
+    width: 63vw;
+}
+
+iframe{
+    width: 63vw;
+    height: 72vh;
+}
+
+.pieImagen{
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-family: "le-monde-livre-std",serif;
+}
+
+.opciones{
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.opcion1{
+    height: 14vh;
+    width: 25vw;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.opcion1 a{
+    color: #000000;
+}
+
+hr{
+    margin-top: 40px;
+    background-color: rgb(216, 216, 216);
+    margin-bottom: 80px;
+}
+
+p{
+    font-family: "le-monde-livre-std",serif;
+    color: #202020;
+    font-size: 24px;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.titulo2{
+    color: rgb(255, 59, 0);
+    font-size: 12em;
+    font-weight: 900;
+    letter-spacing: 0px;
+    line-height: 80px;
+    margin: 0px;
+}
+
+.navEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.boton2{
+    height: 90px;
+    border: 1px;
+    border-color: black;
+    margin-top: -50px;
+    margin-right: 30px;
+}
+
+.footer{
+    background-color: black;
+    height: 120px;
+    width: 100vw;
+    z-index: 111;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background-color: #000000;
+    margin-top: 30px;
+    position: absolute;
+}
+
+
+
+
