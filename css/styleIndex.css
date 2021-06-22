@@ -28,13 +28,13 @@ html {
     position: absolute;
     height: 10vh;
     width: 80vw;
-    background-color: rgba(255, 255, 255, 0.801);
+    background-color: #0e3a6f55;
     transform: translate(10vw, 0vh);
 }
 .trampaR{
     height: 100vh;
     width: 10vw;
-    background-color: rgba(255, 255, 255, 0.801);
+    background-color: #0e3a6f55;
     transform: translate(90vw, 0vh);
     position: fixed;
 }
@@ -42,14 +42,14 @@ html {
     position: absolute;
     height: 10vh;
     width: 80vw;
-    background-color: rgba(255, 255, 255, 0.801);
+    background-color: #0e3a6f55;
     transform: translate(10vw, 90vh);
     position: fixed;
 }
 .trampaL{
     height: 100vh;
     width: 10vw;
-    background-color: rgba(255, 255, 255, 0.801);
+    background-color: #0e3a6f55;
     position: fixed;
 }
 
