@@ -36,7 +36,7 @@ html {
 }
 
 .row{
-    width: 100vh;
+    max-width: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -400,8 +400,22 @@ ol{
     img{
         width: 85vw;
     }
+    iframe{
+        width: 85vw;
+        height: 45vh;
+    }
     .footer{
         height: 21vh;
+    }
+    .opciones{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .opcion1 {
+        height: 10vh;
+        width: 90vw;
+        font-size: 20px;
+        padding-top: 25px;
     }
 }
 
@@ -417,15 +431,6 @@ ol{
     .titulo2{
         font-size: 60px;
         line-height: 30px; 
-    }
-
-    h2{
-        font-size: 50px;
-        line-height: 30px; 
-    }
-    h3{
-        font-size: 30px;
-        line-height: 15px; 
     }
 
     .autor{
@@ -445,10 +450,11 @@ ol{
         line-height: 1.5;
         font-weight: 500;
     }
-
-}
-
-@media (max-width: 650px) {
+    li{
+        font-size: 22px;
+        line-height: 1.5;
+        font-weight: 500;
+    }
 
     main{
         margin: 2px;
@@ -461,11 +467,12 @@ ol{
     }
 
     h2{
-        font-size: 35px;
+        font-size: 50px;
+        line-height: 30px; 
     }
-
     h3{
-        font-size: 20px;
+        font-size: 40px;
+        line-height: 15px; 
     }
 
     .reconocimientoContenedor{
@@ -475,6 +482,15 @@ ol{
     .footer{
         height: 60vh;
     }
+
+    .tituloSeccion{
+        margin: 30px 10px;
+    }
+
+    .boton2{
+        height: 120px;
+    }
+
 
 }
 
