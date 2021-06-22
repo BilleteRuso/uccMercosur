@@ -287,4 +287,34 @@ p{
         display: none;
     }
 
+    .caratulaDesp{
+        height: 100vh;
+    }
+
+    .menuDespTitulo{
+        margin: 100px 20px 20px 20px;
+        text-align: center;
+    }
+
+    .liDesp{
+        color: #E83C38;
+        display: block;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 1.5;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all 150ms ease-out 0s;
+        margin: 20px;
+        text-align: center;
+    }
+    
+    .ulDesp{
+        list-style: none;
+        padding: 0px;
+    }
+    
+
 }

@@ -3,6 +3,10 @@ body{
     padding: 0px;
 }
 
+.menuDesp{
+    display: none;
+}
+
 .fondo{
     height: 100vh;
     width: 100vw;
@@ -382,6 +386,8 @@ ol{
     color: rgb(255, 255, 255);
 }
 
+
+
 @media (max-width: 1300px) {
     .subMenu{
         flex-direction: column;
@@ -392,6 +398,14 @@ ol{
    
     .menuLeft{
         display: none;
+    }
+
+    .menuDesp{
+        display: block;
+        position: fixed;
+        width: 10vw;
+        right: 20px;
+        top: 20px;
     }
 
     .main{
@@ -456,6 +470,10 @@ ol{
     img{
         width: 93vw;
     }
+    iframe{
+        width: 93vw;
+        height: 45vh;
+    }
 
     p{
         font-size: 22px;
@@ -505,6 +523,8 @@ ol{
 
 
 }
+
+
 
 
 
