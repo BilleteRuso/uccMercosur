@@ -338,9 +338,9 @@ ol{
     height: 40px;
     width: 40px;
     background-color: #000000;
-    margin-top: 30px;
     position: absolute;
-    transform: translateY(-9vh);
+    right: 20px;
+    margin-top: -10px;
 }
 
 
@@ -396,6 +396,7 @@ ol{
 
     .main{
         width: 100vw;
+        margin: 0px 30px;
     }
     img{
         width: 85vw;
@@ -425,7 +426,18 @@ ol{
         font-size: 15em;
         letter-spacing: -30px;
         margin: 0px;
-        transform: translate(-10px, 90px);
+        position: relative;
+        bottom: 90px;
+    }
+
+    .main{
+        width: 100vw;
+        margin: 0px 10px;
+    }
+
+    .seccionMarca{
+        height: 90px;
+        position: relative;
     }
 
     .titulo2{
@@ -442,7 +454,7 @@ ol{
     }
 
     img{
-        width: 90vw;
+        width: 93vw;
     }
 
     p{
