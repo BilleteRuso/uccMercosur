@@ -293,6 +293,10 @@ iframe{
 
 .opcion1A{
     color: #000000;
+    border: 1px;
+    border-color: #a5a5a526;
+    border-style: solid;
+    margin: 5px;
 }
 
 .opcion1A:hover{
