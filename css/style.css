@@ -264,6 +264,7 @@ iframe{
     height: 72vh;
 }
 
+
 .pieImagen{
     color: rgb(51, 51, 51);
     font-size: 14px;
@@ -273,7 +274,7 @@ iframe{
 .opciones{
     height: 140px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .opcion1{
@@ -290,10 +291,14 @@ iframe{
     padding-top: 50px;
 }
 
-.opcion1 a{
+.opcion1A{
     color: #000000;
 }
 
+.opcion1A:hover{
+    background-color: #a5a5a526;
+    transition: 0.5s;
+}
 hr{
     margin-top: 40px;
     background-color: rgb(216, 216, 216);

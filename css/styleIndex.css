@@ -66,6 +66,19 @@ html {
     z-index: 111;
     text-align: center;
 }
+.caratula1{
+    width: 60vw;
+    height: 80vh;
+    background-color: #ffffff;
+    margin: 0vh 10vw;
+    border: 1px;
+    border-color: #a5a5a5;
+    border-style: solid;
+    padding: 10vh 10vw;
+    position: absolute;
+    z-index: 111;
+    text-align: center;
+}
 
 a{
     text-decoration: none;
@@ -91,7 +104,7 @@ h2{
     text-decoration: none;
     text-transform: uppercase;
     transition: all 150ms ease-out 0s;
-    margin: 20px 20px 20px 0px;
+    margin: 20px 20px 20px 20px;
 }
 
 h4{
@@ -165,12 +178,13 @@ p{
     margin: 20px 20px 20px 0px;
 }
 
+.botonTitulo1{
+    font-size: 30px;
+    margin-top: 16vh;
+}
 @media (max-width: 1300px) {
     .subMenu{
         flex-direction: column;
-    }
-    .botonTitulo{
-        font-size: 30px;
     }
 }
 
@@ -264,7 +278,7 @@ p{
     .reconocimientoContenedor{
         flex-direction: column;
     }
-    .botonTitulo{
+    .botonTitulo1{
         font-size: 20px;
     }
 
@@ -280,7 +294,14 @@ p{
         width: 100vw;
         padding: 0px;
         margin: 0px;
-        border: opx;
+        border: 0px;
+    }
+    .caratula1{
+        width: 100vw;
+        min-height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        border: none;
     }
 
     .fondo{
