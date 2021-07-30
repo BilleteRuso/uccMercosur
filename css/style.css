@@ -45,6 +45,13 @@ html {
     flex-direction: column;
 }
 
+.mercosurLink{
+    width: 100vw;
+    height: 700vh;
+    position: absolute;
+    z-index: 1000000000000;
+}
+
 
 
 .container{
